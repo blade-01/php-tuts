@@ -26,5 +26,5 @@
   );
   echo "John's email: " . $contacts["John"]["email"] . "</br>";
   echo "Jane's phone: " . $contacts["Jane"]["phone"] . "</br>";
-  print_r($contacts);
+  print_r($contacts); // Print the entire multidimensional array
 ?>
